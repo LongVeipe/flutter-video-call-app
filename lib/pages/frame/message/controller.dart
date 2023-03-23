@@ -1,12 +1,12 @@
 import 'package:lv_caller/common/routes/names.dart';
-import 'package:lv_caller/pages/frame/welcome/state.dart';
+import 'package:lv_caller/pages/frame/message/state.dart';
 import 'package:get/get.dart';
 
-class WelcomeController extends GetxController {
-  WelcomeController();
+class MessageController extends GetxController {
+  MessageController();
 
-  final title = "LV Caller";
-  final state = WelcomeState();
+  final title = "Chatty .";
+  final state = SingInState();
 
   @override
   void onReady() {

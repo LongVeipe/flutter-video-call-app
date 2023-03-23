@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "387412978535",
+    "project_id": "flutter-video-call-app-24473",
+    "storage_bucket": "flutter-video-call-app-24473.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387412978535:android:e20af6e066c4b360445dc2",
+        "android_client_info": {
+          "package_name": "com.dbestech.chatty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387412978535-j8o5bpbo5dul9rlo8vja09a2rv6h896n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmRh1B-NcPs_sE3TYuvCDurkRvz9tF_KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387412978535-aeqs3a30bemip7gpocu4jbasnlkmdevq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387412978535-2naos4mu7jfbh8l6uiag4707mhibuetr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dbestech.chatty"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387412978535:android:5fa0b21a3382b03a445dc2",
+        "android_client_info": {
+          "package_name": "com.veipe.lvcaller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387412978535-j8o5bpbo5dul9rlo8vja09a2rv6h896n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmRh1B-NcPs_sE3TYuvCDurkRvz9tF_KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387412978535-aeqs3a30bemip7gpocu4jbasnlkmdevq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387412978535-2naos4mu7jfbh8l6uiag4707mhibuetr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dbestech.chatty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
-import 'package:chatty/common/apis/apis.dart';
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/common/store/store.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:lv_caller/common/apis/apis.dart';
+import 'package:lv_caller/common/entities/entities.dart';
+import 'package:lv_caller/common/routes/names.dart';
+import 'package:lv_caller/common/store/store.dart';
+import 'package:lv_caller/common/values/values.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -19,7 +19,7 @@ class FirebaseMassagingHandler {
 
   FirebaseMassagingHandler._();
   static AndroidNotificationChannel channel_call = const AndroidNotificationChannel(
-    'com.dbestech.chatty.call', // id
+    'com.veipe.lvcaller.call', // id
     'chatty_call', // title
     importance: Importance.max,
     enableLights: true,
@@ -27,8 +27,8 @@ class FirebaseMassagingHandler {
     sound: RawResourceAndroidNotificationSound('alert'),
   );
   static AndroidNotificationChannel channel_message = const AndroidNotificationChannel(
-    'com.dbestech.chatty.message', // id
-    'chatty_message', // title
+    'com.veipe.lvcaller.message', // id
+    'lv_caller_message', // title
     importance: Importance.defaultImportance,
     enableLights: true,
     playSound: true,

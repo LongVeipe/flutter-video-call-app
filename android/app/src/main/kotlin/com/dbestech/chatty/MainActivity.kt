@@ -1,4 +1,4 @@
-package com.dbestech.chatty
+package com.veipe.lvcaller
 
 import io.flutter.embedding.android.FlutterActivity
 
